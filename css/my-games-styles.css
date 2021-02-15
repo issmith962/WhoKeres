@@ -1,0 +1,30 @@
+#img-lb {
+	width:100%;
+	height:auto;
+}
+.mid-page-box {
+	flex: 1 1 0px;
+}
+.pgn-box {
+	display:flex;
+	height:50vh; 
+	border:2px solid white;
+}
+.board-box {
+	display: flex;
+	flex-direction:column; 
+	justify-content:center;
+	align-items:center;
+	
+}
+.options-box {
+	display:flex;
+	height:10vh;
+	border:2px solid white;
+}
+
+@media (min-width: 700px) {
+	.pgn-box {
+		height:auto;
+	}
+}
