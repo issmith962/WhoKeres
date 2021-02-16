@@ -28,6 +28,12 @@
 .color-dark {
 	color:#1d2731;/*!important;*/
 }
+.color-white {
+	color:white;
+}
+.color-black {
+	color:black;
+}
 .navlink-color{
 	color:#fff;
 	opacity:0.5;
@@ -48,7 +54,7 @@ body {
 	flex-wrap:nowrap;
 	width:100%;
 	height:100%;
-	/*margin-bottom:auto;*/
+	margin-bottom:auto;
 	flex-direction:column;
 }
 .footer {
@@ -57,7 +63,7 @@ body {
 	align-items:center;
 	font-size:3vw;
 	height:6vh;
-	margin-top:auto;
+	/*margin-top:auto;*/
 	background-color: #1d2731;
 }
 @media (min-width: 700px) {
